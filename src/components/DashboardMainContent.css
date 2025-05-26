@@ -1,0 +1,27 @@
+.dashboard-main {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Left and right columns take 50% on desktop */
+.left-column,
+.right-column {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Responsive stacking for smaller screens */
+@media (max-width: 768px) {
+  .dashboard-main {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}

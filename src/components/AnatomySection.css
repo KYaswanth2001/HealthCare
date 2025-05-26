@@ -1,0 +1,29 @@
+.anatomy-section {
+    position: relative;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .anatomy-section img {
+    max-width: 100%;
+    
+  }
+  
+  .status-tag {
+    position: absolute;
+    font-size: 12px;
+    padding: 4px 8px;
+    background: #e5e7eb;
+    border-radius: 6px;
+  }
+  
+  .status-tag.green {
+    background-color: #d1fae5;
+    color: #065f46;
+  }
+  
+  .status-tag.red {
+    background-color: #fee2e2;
+    color: #991b1b;
+  }
+  

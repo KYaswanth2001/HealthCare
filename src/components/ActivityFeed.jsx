@@ -2,7 +2,7 @@ import React from 'react';
 import './ActivityFeed.css';
 
 const ActivityFeed = () => {
-  const bars = [50, 80, 40, 70, 90, 60, 30]; // Static values representing bar heights
+  const bars = [50, 80, 40, 70, 90, 60, 30]; 
 
   return (
     <div className="activity-feed">
